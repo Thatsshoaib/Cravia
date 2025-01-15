@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cravia/static/css/main.198f5fe3.css",
-    "main.js": "/Cravia/static/js/main.ec7c7da6.js",
+    "main.css": "/Cravia/static/css/main.f8e5783c.css",
+    "main.js": "/Cravia/static/js/main.b484dc15.js",
     "static/media/thumpsupdr.png": "/Cravia/static/media/thumpsupdr.7840e93ae44f157f9a19.png",
     "static/media/dentist.png": "/Cravia/static/media/dentist.87ea383cdb1eb681f37d.png",
     "static/media/pediatrician.jpg": "/Cravia/static/media/pediatrician.82c87f4f74ce06a1956b.jpg",
@@ -15,11 +15,11 @@
     "static/media/Gsurgeon.jpeg": "/Cravia/static/media/Gsurgeon.1d318890091f6c73cbfb.jpeg",
     "static/media/wallpaper.webp": "/Cravia/static/media/wallpaper.0ed5d706b4858c149a00.webp",
     "index.html": "/Cravia/index.html",
-    "main.198f5fe3.css.map": "/Cravia/static/css/main.198f5fe3.css.map",
-    "main.ec7c7da6.js.map": "/Cravia/static/js/main.ec7c7da6.js.map"
+    "main.f8e5783c.css.map": "/Cravia/static/css/main.f8e5783c.css.map",
+    "main.b484dc15.js.map": "/Cravia/static/js/main.b484dc15.js.map"
   },
   "entrypoints": [
-    "static/css/main.198f5fe3.css",
-    "static/js/main.ec7c7da6.js"
+    "static/css/main.f8e5783c.css",
+    "static/js/main.b484dc15.js"
   ]
 }
