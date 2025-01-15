@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Img1 from "../component/assets/wallpaper.webp";
-import Img2 from "../component/assets/carouselimagetwo.jpg";
-import Img3 from "../component/assets/carouselimagethree.jpg";
-import "./Styles/firstsection.css";
+import Img1 from "../assets/wallpaper.webp";
+import Img2 from "../assets/carouselimagetwo.jpg";
+import Img3 from "../assets/carouselimagethree.jpg";
+import "../Styles/firstsection.css";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import DoctorWorld from "./assets/section-three-image.avif";
-import "../component/Styles/fourthsection.css";
+import DoctorWorld from "../assets/section-three-image.avif";
+import "../Styles/fourthsection.css";
 import { useNavigate } from "react-router-dom";
 
 export default function FourthSection() {

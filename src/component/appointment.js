@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/appointment.css";
+import "../Styles/appointment.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 

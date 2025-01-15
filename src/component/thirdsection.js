@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import General from "./assets/general.jpeg";
-import Cardiologist from "./assets/cardiologist.jpeg";
-import Nephrologist from "./assets/nephrologist.jpeg";
-import Gynocologist from "./assets/gynocologist.jpg";
-import Pediatrician from "./assets/pediatrician.jpg";
-import Dentist from "./assets/dentist.png";
-import Gsurgeaon from "./assets/Gsurgeon.jpeg";
-import Neurologist from "./assets/neurologist.jpeg";
-import "../component/Styles/thirdsection.css";
+import General from "../assets/general.jpeg";
+import Cardiologist from "../assets/cardiologist.jpeg";
+import Nephrologist from "../assets/nephrologist.jpeg";
+import Gynocologist from "../assets/gynocologist.jpg";
+import Pediatrician from "../assets/pediatrician.jpg";
+import Dentist from "../assets/dentist.png";
+import Gsurgeaon from "../assets/Gsurgeon.jpeg";
+import Neurologist from "../assets/neurologist.jpeg";
+import "../Styles/thirdsection.css";
 import Modal from "react-bootstrap/Modal";
 
 // Reusable Card Component

@@ -1,6 +1,6 @@
 import React from 'react';
-import Thumbsup from "./assets/thumpsupdr.png";
-import "../component/Styles/fifthsection.css";
+import Thumbsup from "../assets/thumpsupdr.png";
+import "../Styles/fifthsection.css";
 
 export default function FourthSection() {
   return (

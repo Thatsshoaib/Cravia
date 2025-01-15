@@ -1,5 +1,5 @@
 import React from "react";
-import "../component/Styles/secondsection.css"
+import "../Styles/secondsection.css"
 export default function SecondSection() {
   return (
     <section className="second-section">

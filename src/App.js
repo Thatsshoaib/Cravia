@@ -5,25 +5,29 @@ import LoginPage from "./component/login";
 import AppointmentPage from "./component/appointment";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// Not Found Component
 function NotFound() {
-  return (
-    <div className="d-flex flex-column align-items-center mt-5">
-      <h1>404 - Page Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
-    </div>
+  return React.createElement(
+    "div",
+    { className: "d-flex flex-column align-items-center mt-5" },
+    React.createElement("h1", null, "404 - Page Not Found"),
+    React.createElement("p", null, "The page you are looking for does not exist.")
   );
 }
 
+// App Component
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/appointment" element={<AppointmentPage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+  return React.createElement(
+    Router, 
+    { basename: "/Cravia-HealthCare" }, // Add basename here
+    React.createElement(
+      Routes,
+      null,
+      React.createElement(Route, { path: "/", element: React.createElement(HomePage) }),
+      React.createElement(Route, { path: "/login", element: React.createElement(LoginPage) }),
+      React.createElement(Route, { path: "/appointment", element: React.createElement(AppointmentPage) }),
+      React.createElement(Route, { path: "*", element: React.createElement(NotFound) })
+    )
   );
 }
 

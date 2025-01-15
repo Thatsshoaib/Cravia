@@ -1,5 +1,5 @@
 import React from 'react';
-import '../component/Styles/login.css'; // Import the CSS file
+import '../Styles/login.css';
 export default function SignInForm() {
   return (
     <div className="sign-in-container">

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/logo.jpg";
+import logo from "../assets/logo.jpg";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
