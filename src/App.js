@@ -19,7 +19,7 @@ function NotFound() {
 function App() {
   return React.createElement(
     Router, 
-    { basename: "/Cravia-HealthCare" }, // Add basename here
+    { basename: "/Cravia" }, // Add basename here
     React.createElement(
       Routes,
       null,
